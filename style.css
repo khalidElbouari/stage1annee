@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+.navbar img{
+    width:220px;
+    min-width:220px;
+    position: absolute;
+}
+
+.navbar{
+    height:79px;
+   
+background-image: linear-gradient(to left, rgb(58, 58, 162),rgb(234, 234, 234));;
+}
+
+ul{
+    float:right;
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+}
+ul  a{
+    text-decoration: none;
+   padding-right:60px;
+   
+}
+
+.navbar1 ul a{
+    position: relative;
+   
+}
+
+.navbar ul a::after{
+    content:'';
+    position:absolute;
+    background-color: black;
+    height:2px;
+    width:0%;
+    bottom: -10px;
+    right: 50%;
+    transition: 0.5s;
+}
+.navbar ul a:hover::after{
+    width:50%;
+    left:0;
+}
+
+.navbar1 ul a::after{
+    content:'';
+    position:absolute;
+    background-color: black;
+    height:2px;
+    width:0%;
+    bottom: -10px;
+    right: 50%;
+    transition: 0.5s;
+}
+.navbar1 ul a:hover::after{
+    width:50%;
+    left:0;
+}
+.form {
+margin: 50px auto;
+width: 300px;
+padding: 30px 25px;
+background: white;
+}
+h1.login-title {
+color: #666;
+margin: 0px auto 25px;
+font-size: 25px;
+font-weight: 300;
+text-align: center;
+}
+.login-input {
+font-size: 15px;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 25px;
+height: 25px;
+width: calc(100% - 23px);
+}
+.login-input:focus {
+border-color:#6e8095;
+outline: none;
+}
+.login-button {
+color: #fff;
+background: #55a1ff;
+border: 0;
+outline: 0;
+width: 100%;
+height: 50px;
+font-size: 16px;
+text-align: center;
+cursor: pointer;
+}
+.link {
+color: #666;
+font-size: 15px;
+text-align: center;
+margin-bottom: 0px;
+}
+.link a {
+color: #666;
+}
+h3 {
+font-weight: normal;
+text-align: center;
+}
+.h1{
+text-align: center;
+}
+h3{
+    color: red;
+}
+table th {
+
+padding: 30px;
+} 
+.voir a{
+    text-decoration: none;
+  background-color: #EEEEEE;
+  color: #0077ff;
+  padding: 3px 6px 3px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.tableau {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 600px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+.tableau a{
+text-decoration: none;
+}
+
+.tableau th , .tableau td {
+    padding: 15px 18px;
+   text-align:center;  
+
+}
+.tableau thead tr {
+    background-color: #022a5b;
+    color: #ffffff;
+    text-align: left;
+}
+.tableau tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tableau input{
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.grids{
+   
+    display:flex;
+    position:absolute;
+    margin: 5% 25% ;
+  
+}
+
+.ced , .dec{
+    height:300px;
+    width:300px;
+    filter:blur(2px);
+    border-radius:12%;
+}
+.buten{
+    position:relative;
+    min-width:300px;;
+    background:rgb(24, 18, 110);
+    
+    font-family:American Typewriter, serif;
+    border-radius:4px;
+    padding:20px;
+    font-size:30px;
+    margin-top:-80px;
+    border:none;
+}
+.buten a{
+text-decoration:none;
+color:white;
+}
+.ced:hover{
+    height:310px;
+    width:310px;
+    filter:blur(0px);
+    border-radius:2%;
+    transition:all 0.2s;
+    box-shadow: 2pX 2px 20px black;
+}
+
+.dec:hover{
+    height:310px;
+    width:310px;
+    filter:blur(0px);
+    transition:all 0.2s;
+    border-radius:2%;
+    box-shadow: 2pX 2px 20px black;
+}
+
+.hover:hover + .buten{
+    background:rgb(45, 36, 167);
+    width:310px;
+    filter:blur(0px);
+    box-shadow: 2pX 2px 20px black;
+}
+.enregistrer{
+    height:28px;
+    width:150px;
+    margin-left: 50px;
+    background:rgb(45, 36, 167);
+color: #fff;
+   
+}
+
+
